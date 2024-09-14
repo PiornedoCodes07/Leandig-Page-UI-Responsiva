@@ -1,0 +1,73 @@
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    h1 {
+        font-size: 3.5rem;
+    }
+    /*HEADER*/
+    #header p {
+        font-size: 1rem;
+    }
+    /*QUALIDADES E PROCESSOS*/
+    #cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /*NOSSAS QUALIDADES*/
+    .contentSection h2 {
+        font-size: 2.5rem;
+    }
+    
+    #itensContentSection {
+        margin: 0 2rem;
+        gap: 3rem;
+    }
+    
+    #ourQualities {
+        padding: 0 2.3rem 9rem 2.3rem;
+    }
+    /*EMPRESAS PARCEIRAS*/
+    #gridCompanies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: column;
+    }
+    
+    #itemCompanies1 {
+        grid-area:auto;
+    }
+    
+    #itemCompanies2 {
+        grid-area:auto;
+    }
+    
+    #itemCompanies3 {
+        grid-area:auto;
+    }
+    
+    #itemCompanies4 {
+        grid-area:auto;
+    }
+    
+    #itemCompanies5 {
+        grid-area:auto;
+    }
+    #itemCompanies6{
+        grid-area:auto;
+    }
+    #itemCompanies7{
+        grid-area:auto;
+    }
+    #itemCompanies8{
+        grid-area:auto;
+    }
+    #itemCompanies9{
+        grid-area: auto;
+    }
+    /*FOOTER*/
+    #footer {
+        padding: 7.5rem 2rem 3rem 2rem;
+    }
+}
+/*MOBILE*/
+@media only screen and (max-width: 768px){
+    
+}

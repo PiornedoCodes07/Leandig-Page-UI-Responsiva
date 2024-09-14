@@ -50,6 +50,9 @@ h3 {
     padding-left: 10rem;
     gap: 2rem;
 }
+#header p {
+    font-size: 1.25rem;
+}
 /*QUALIDADES E PROCESSOS*/
 #qualittAndProcesses {
     text-align: center;
@@ -199,13 +202,14 @@ h3 {
 }
 /*FOOTER*/
 #footer {
-    padding: 7.5rem 10rem 3rem 10rem;
+    padding: 7.5rem 7.5rem 3rem 7.5rem;
 }
 
 #linksFooter {
     display: flex;
     text-align: left;
     margin-bottom: 7rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 

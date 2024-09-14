@@ -1,0 +1,223 @@
+/*ESTILOS INICIAIS*/
+:root{
+    --white: #fff;
+    --red: #F84646;
+    --redShadown: #a40000;
+    --linkColor: #E6E6E6;
+    --greyH2: #2E2E2E;
+    --lightGreyP: #808080;
+    --backgroundCompanies: #F4F5F7;
+}
+* {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: var(--linkColor);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+.red-section {
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+}
+/*HEADER*/
+#header {
+    background-image: url(/src/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10rem;
+    gap: 2rem;
+}
+/*QUALIDADES E PROCESSOS*/
+#qualittAndProcesses {
+    text-align: center;
+    padding: 7.5rem;
+}
+
+#quality-text {
+    margin: 3rem 0 4rem 0;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5rem;
+}
+/*NOSSO TRABALHO*/
+#ourWork {
+    padding: 4.25rem;
+}
+
+#ourWork-text {
+    margin: 1rem 0 4rem 0;
+}
+
+#ourWork ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 3rem;
+    font-weight: 700;
+}
+/*NOSSAS QUALIDADES*/
+.contentSection {
+    display: flex;
+    margin-top: 9rem;
+    justify-content: space-between;
+}
+
+.contentSection:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.contentSection h2 {
+    color: var(--greyH2);
+}
+
+.contentSection p {
+    color: var(--lightGreyP);
+}
+
+#itensContentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ourQualities {
+    padding: 0 23rem 9rem 23rem;
+}
+
+.buttonOurQualities {
+    background-color: var(--red);
+    border-radius: 0.8rem;
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    padding: 1rem 3rem;
+    width: 10.5rem;
+}
+/*EMPRESAS PARCEIRAS*/
+#companies {
+    text-align: center;
+    background-color: var(--backgroundCompanies);
+    padding: 7.5rem;
+}
+#companies p{
+    margin-bottom: 4rem;
+}
+#gridCompanies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3rem;
+}
+.itensCompanies{
+    background-color: var(--white);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itemCompanies1 {
+    grid-area: 3/1;
+}
+
+#itemCompanies2 {
+    grid-area: 2/2;
+}
+
+#itemCompanies3 {
+    grid-area: 3/2;
+}
+
+#itemCompanies4 {
+    grid-area: 1/3;
+}
+
+#itemCompanies5 {
+    grid-area: 2/3;
+}
+#itemCompanies6{
+    grid-area: 3/3;
+}
+#itemCompanies7{
+    grid-area: 2/4;
+}
+#itemCompanies8{
+    grid-area: 3/4;
+}
+#itemCompanies9{
+    grid-area: 3/5;
+}
+/*CONTATO*/
+#contactButton {
+    background-color: var(--red);
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#contactButton:hover {
+    scale: 1.1;
+    box-shadow: var(--redShadown) 0 10px 20px;
+}
+
+#contact {
+    text-align: center;
+    padding: 7.5rem;
+}
+/*FOOTER*/
+#footer {
+    padding: 7.5rem 10rem 3rem 10rem;
+}
+
+#linksFooter {
+    display: flex;
+    text-align: left;
+    margin-bottom: 7rem;
+    justify-content: space-between;
+}
+
+#buttonsFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listLinks li {
+    padding-top: 1rem;
+}
+
+#socialMedia img {
+    padding-left: 0.7rem;
+}
